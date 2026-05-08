@@ -1,4 +1,4 @@
-This is a reporistory for my personal fanControl graphs and sensors.
+This is a repository for my personal fanControl graphs and sensors.
 
 ```mermaid
 graph TD
