@@ -235,7 +235,7 @@
         "IsHidden": false,
         "Enable": true,
         "SelectedFanCurve": {
-          "Name": "Mix: Case Fans"
+          "Name": "Mix: Fans"
         },
         "SelectedOffset": 0,
         "PairedFanSensor": {
@@ -306,7 +306,7 @@
         "IsHidden": false,
         "Enable": true,
         "SelectedFanCurve": {
-          "Name": "Mix: Radiator Fans"
+          "Name": "Mix: Fans"
         },
         "SelectedOffset": 0,
         "PairedFanSensor": {
@@ -373,7 +373,7 @@
         "IsHidden": false,
         "Enable": true,
         "SelectedFanCurve": {
-          "Name": "Mix: Radiator Fans"
+          "Name": "Mix: Fans"
         },
         "SelectedOffset": 0,
         "PairedFanSensor": {
@@ -440,7 +440,7 @@
         "IsHidden": false,
         "Enable": true,
         "SelectedFanCurve": {
-          "Name": "Mix: Radiator Fans"
+          "Name": "Mix: Fans"
         },
         "SelectedOffset": 0,
         "PairedFanSensor": {
@@ -507,7 +507,7 @@
         "IsHidden": false,
         "Enable": true,
         "SelectedFanCurve": {
-          "Name": "Mix: Case Fans"
+          "Name": "Mix: Fans"
         },
         "SelectedOffset": 0,
         "PairedFanSensor": {
@@ -657,6 +657,27 @@
         "SelectedSensors": [
           {
             "Identifier": "NVApiWrapper/0-GB203-A/sensor/0"
+          }
+        ]
+      },
+      {
+        "NickName": "Case Air Mix",
+        "Identifier": "Mix/Case Air Mix",
+        "IsHidden": false,
+        "AllowMissingSensor": false,
+        "SelectedMixFunction": 0,
+        "SelectedSensors": [
+          {
+            "Identifier": "Mix/Motherboard Temps"
+          },
+          {
+            "Identifier": "Mix/Memory Temps"
+          },
+          {
+            "Identifier": "Mix/CPU Temps"
+          },
+          {
+            "Identifier": "Mix/GPU Temps"
           }
         ]
       }
@@ -824,21 +845,41 @@
         }
       },
       {
-        "Name": "Mix: Radiator Fans",
+        "Name": "Case Graph",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "Mix/Case Air Mix"
+        },
+        "Points": [
+          "35,0",
+          "45,25",
+          "60,50",
+          "75,100"
+        ],
+        "MaximumTemperature": 100,
+        "MinimumTemperature": 0,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": true
+        }
+      },
+      {
+        "Name": "Mix: Fans",
         "IsHidden": false,
         "CommandMode": 0,
         "SelectedFanCurves": [
           {
             "Name": "Coolant Delta (Improved)"
+          },
+          {
+            "Name": "Case Graph"
           }
         ],
-        "SelectedMixFunction": 0
-      },
-      {
-        "Name": "Mix: Case Fans",
-        "IsHidden": false,
-        "CommandMode": 0,
-        "SelectedFanCurves": [],
         "SelectedMixFunction": 0
       }
     ],
