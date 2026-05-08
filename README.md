@@ -29,7 +29,9 @@ graph TD
 
     %% Controls
     subgraph Controls [Fan & Pump Controls]
-        F1[Coolant Pump]
+        subgraph Pumps [Pumps]
+            F1[Coolant Pump]
+        end
         subgraph RadiatorFans [Radiator Fans]
             F3[Front Intake Fans]
             F4[Top Rear Exhaust Fan]
