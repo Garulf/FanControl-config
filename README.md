@@ -28,13 +28,17 @@ graph TD
     end
 
     %% Controls
-    subgraph Controls [Fan Controls]
+    subgraph Controls [Fan & Pump Controls]
         F1[Coolant Pump]
-        F2[Side Intake Fans]
-        F3[Front Intake Fans]
-        F4[Top Rear Exhaust Fan]
-        F5[Top Front Exhaust Fan]
-        F6[Rear Exhaust Fan]
+        subgraph RadiatorFans [Radiator Fans]
+            F3[Front Intake Fans]
+            F4[Top Rear Exhaust Fan]
+            F5[Top Front Exhaust Fan]
+        end
+        subgraph CaseFans [Case Fans]
+            F2[Side Intake Fans]
+            F6[Rear Exhaust Fan]
+        end
     end
 
     %% Relationships
