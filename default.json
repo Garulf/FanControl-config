@@ -1,0 +1,990 @@
+{
+  "__VERSION__": "266",
+  "FanControl": {
+    "Controls": [
+      {
+        "NickName": "Fan #1",
+        "Identifier": "/lpc/nct6798d/control/0",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 100,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Fan #2",
+        "Identifier": "/lpc/nct6798d/control/1",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Fan #3",
+        "Identifier": "/lpc/nct6798d/control/2",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Fan #4",
+        "Identifier": "/lpc/nct6798d/control/3",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Fan #5",
+        "Identifier": "/lpc/nct6798d/control/4",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Fan #6",
+        "Identifier": "/lpc/nct6798d/control/5",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Fan #7",
+        "Identifier": "/lpc/nct6798d/control/6",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Control 1 - NVIDIA GeForce RTX 5080",
+        "Identifier": "NVApiWrapper/0-GB203-A/control/0",
+        "IsHidden": false,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Control 2 - NVIDIA GeForce RTX 5080",
+        "Identifier": "NVApiWrapper/0-GB203-A/control/1",
+        "IsHidden": false,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GB203-A/fan/1"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Coolant Pump",
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedController/0",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Hydro X XD5 Pump (Optimized)"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/0"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 100,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            10,
+            798
+          ],
+          [
+            20,
+            818
+          ],
+          [
+            30,
+            1389
+          ],
+          [
+            40,
+            1951
+          ],
+          [
+            50,
+            2511
+          ],
+          [
+            60,
+            3066
+          ],
+          [
+            70,
+            3617
+          ],
+          [
+            80,
+            4158
+          ],
+          [
+            90,
+            4710
+          ],
+          [
+            100,
+            4838
+          ]
+        ]
+      },
+      {
+        "NickName": "Side Intake Fans",
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedController/1",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Mix: Case Fans"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/1"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            591
+          ],
+          [
+            10,
+            623
+          ],
+          [
+            20,
+            624
+          ],
+          [
+            30,
+            626
+          ],
+          [
+            40,
+            835
+          ],
+          [
+            50,
+            1024
+          ],
+          [
+            60,
+            1186
+          ],
+          [
+            70,
+            1340
+          ],
+          [
+            80,
+            1481
+          ],
+          [
+            90,
+            1619
+          ],
+          [
+            100,
+            1734
+          ]
+        ]
+      },
+      {
+        "NickName": "Front Intake Fans",
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedController/2",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Mix: Radiator Fans"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/2"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            1,
+            0
+          ],
+          [
+            10,
+            155
+          ],
+          [
+            20,
+            359
+          ],
+          [
+            30,
+            564
+          ],
+          [
+            40,
+            723
+          ],
+          [
+            50,
+            862
+          ],
+          [
+            60,
+            988
+          ],
+          [
+            70,
+            1103
+          ],
+          [
+            80,
+            1201
+          ],
+          [
+            90,
+            1300
+          ],
+          [
+            100,
+            1401
+          ]
+        ]
+      },
+      {
+        "NickName": "Top Rear Exhaust Fan",
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedController/3",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Mix: Radiator Fans"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/3"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            1,
+            0
+          ],
+          [
+            10,
+            311
+          ],
+          [
+            20,
+            334
+          ],
+          [
+            30,
+            701
+          ],
+          [
+            40,
+            1051
+          ],
+          [
+            50,
+            1363
+          ],
+          [
+            60,
+            1639
+          ],
+          [
+            70,
+            1872
+          ],
+          [
+            80,
+            2048
+          ],
+          [
+            90,
+            2248
+          ],
+          [
+            100,
+            2454
+          ]
+        ]
+      },
+      {
+        "NickName": "Top Front Exhaust Fan",
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedController/4",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Mix: Radiator Fans"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/4"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            1,
+            0
+          ],
+          [
+            10,
+            333
+          ],
+          [
+            20,
+            358
+          ],
+          [
+            30,
+            734
+          ],
+          [
+            40,
+            1092
+          ],
+          [
+            50,
+            1400
+          ],
+          [
+            60,
+            1666
+          ],
+          [
+            70,
+            1906
+          ],
+          [
+            80,
+            2083
+          ],
+          [
+            90,
+            2284
+          ],
+          [
+            100,
+            2489
+          ]
+        ]
+      },
+      {
+        "NickName": "Rear Exhaust Fan",
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedController/5",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Mix: Case Fans"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/5"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            1,
+            0
+          ],
+          [
+            10,
+            348
+          ],
+          [
+            20,
+            373
+          ],
+          [
+            30,
+            740
+          ],
+          [
+            40,
+            1070
+          ],
+          [
+            50,
+            1338
+          ],
+          [
+            60,
+            1564
+          ],
+          [
+            70,
+            1774
+          ],
+          [
+            80,
+            1927
+          ],
+          [
+            90,
+            2104
+          ],
+          [
+            100,
+            2281
+          ]
+        ]
+      }
+    ],
+    "CustomSensors": [
+      {
+        "NickName": "Coolant Delta",
+        "Identifier": "Mix/Coolant Delta",
+        "IsHidden": false,
+        "AllowMissingSensor": false,
+        "SelectedMixFunction": 4,
+        "SelectedSensors": [
+          {
+            "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/TemperatureSensor/0"
+          },
+          {
+            "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/TemperatureSensor/1"
+          }
+        ]
+      },
+      {
+        "NickName": "Motherboard Temps",
+        "Identifier": "Mix/Motherboard Temps",
+        "IsHidden": false,
+        "AllowMissingSensor": false,
+        "SelectedMixFunction": 0,
+        "SelectedSensors": [
+          {
+            "Identifier": "/lpc/nct6798d/temperature/1"
+          },
+          {
+            "Identifier": "/lpc/nct6798d/temperature/2"
+          },
+          {
+            "Identifier": "/lpc/nct6798d/temperature/3"
+          },
+          {
+            "Identifier": "/lpc/nct6798d/temperature/4"
+          },
+          {
+            "Identifier": "/lpc/nct6798d/temperature/5"
+          },
+          {
+            "Identifier": "/lpc/nct6798d/temperature/6"
+          }
+        ]
+      },
+      {
+        "NickName": "Memory Temps",
+        "Identifier": "Mix/Memory Temps",
+        "IsHidden": false,
+        "AllowMissingSensor": false,
+        "SelectedMixFunction": 0,
+        "SelectedSensors": [
+          {
+            "Identifier": "/memory/dimm/0/temperature/0"
+          },
+          {
+            "Identifier": "/memory/dimm/1/temperature/0"
+          },
+          {
+            "Identifier": "/memory/dimm/2/temperature/0"
+          },
+          {
+            "Identifier": "/memory/dimm/3/temperature/0"
+          }
+        ]
+      },
+      {
+        "NickName": "CPU Temps",
+        "Identifier": "Mix/CPU Temps",
+        "IsHidden": false,
+        "AllowMissingSensor": false,
+        "SelectedMixFunction": 1,
+        "SelectedSensors": [
+          {
+            "Identifier": "/amdcpu/0/temperature/2"
+          },
+          {
+            "Identifier": "/amdcpu/0/temperature/3"
+          }
+        ]
+      },
+      {
+        "NickName": "GPU Temps",
+        "Identifier": "Mix/GPU Temps",
+        "IsHidden": false,
+        "AllowMissingSensor": false,
+        "SelectedMixFunction": 0,
+        "SelectedSensors": [
+          {
+            "Identifier": "NVApiWrapper/0-GB203-A/sensor/0"
+          }
+        ]
+      }
+    ],
+    "FanCurves": [
+      {
+        "Name": "Min",
+        "IsHidden": true,
+        "CommandMode": 0,
+        "Percent": 0
+      },
+      {
+        "Name": "Coolant Delta",
+        "IsHidden": true,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "Mix/Coolant Delta"
+        },
+        "Points": [
+          "5,20",
+          "10,40",
+          "20,100"
+        ],
+        "MaximumTemperature": 20,
+        "MinimumTemperature": 0,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": true
+        }
+      },
+      {
+        "Name": "Coolant Delta (Improved)",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "Mix/Coolant Delta"
+        },
+        "Points": [
+          "2,18",
+          "5,25",
+          "8,35",
+          "10,45",
+          "12,58",
+          "14,72",
+          "16,86",
+          "18,95",
+          "20,100"
+        ],
+        "MaximumTemperature": 20,
+        "MinimumTemperature": 0,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 2,
+          "ResponseTimeDown": 3,
+          "HysteresisValueUp": 1,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": true
+        }
+      },
+      {
+        "Name": "Hydro X XD5 Pump",
+        "IsHidden": true,
+        "CommandMode": 1,
+        "SelectedTempSource": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/TemperatureSensor/0"
+        },
+        "Points": [
+          "20,1800",
+          "30,2100",
+          "40,2200",
+          "45,2600",
+          "50,3300",
+          "55,4800"
+        ],
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 5000,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": false
+        }
+      },
+      {
+        "Name": "Hydro X XD5 Pump (Optimized)",
+        "IsHidden": false,
+        "CommandMode": 1,
+        "SelectedTempSource": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/TemperatureSensor/0"
+        },
+        "Points": [
+          "25,2200",
+          "35,2600",
+          "42,3200",
+          "48,4200",
+          "52,4800"
+        ],
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 5000,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 5,
+          "HysteresisValueUp": 1,
+          "HysteresisValueDown": 1,
+          "IgnoreHysteresisAtLimits": false
+        }
+      },
+      {
+        "Name": "Hydro X XD5 Pump (Percent)",
+        "IsHidden": true,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/TemperatureSensor/0"
+        },
+        "Points": [
+          "20,36",
+          "30,42",
+          "40,44",
+          "45,52",
+          "50,66",
+          "55,96"
+        ],
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": false
+        }
+      },
+      {
+        "Name": "Hydro X Fans",
+        "IsHidden": true,
+        "CommandMode": 1,
+        "SelectedTempSource": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/TemperatureSensor/0"
+        },
+        "Points": [
+          "34,0",
+          "35,500",
+          "38,800",
+          "40,1200",
+          "41,1500",
+          "42,4000"
+        ],
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 5000,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": false
+        }
+      },
+      {
+        "Name": "Mix: Radiator Fans",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedFanCurves": [
+          {
+            "Name": "Coolant Delta (Improved)"
+          }
+        ],
+        "SelectedMixFunction": 0
+      },
+      {
+        "Name": "Mix: Case Fans",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedFanCurves": [],
+        "SelectedMixFunction": 0
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "/lpc/nct6798d/fan/0",
+        "IsHidden": false,
+        "NickName": "Fan #1"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/1",
+        "IsHidden": false,
+        "NickName": "Fan #2"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/2",
+        "IsHidden": false,
+        "NickName": "Fan #3"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/3",
+        "IsHidden": false,
+        "NickName": "Fan #4"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/4",
+        "IsHidden": false,
+        "NickName": "Fan #5"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/5",
+        "IsHidden": false,
+        "NickName": "Fan #6"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/6",
+        "IsHidden": false,
+        "NickName": "Fan #7"
+      },
+      {
+        "Identifier": "/lpc/ec/fan/0",
+        "IsHidden": false,
+        "NickName": "Chipset Fan"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GB203-A/fan/0",
+        "IsHidden": false,
+        "NickName": "Fan 1 - NVIDIA GeForce RTX 5080"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GB203-A/fan/1",
+        "IsHidden": false,
+        "NickName": "Fan 2 - NVIDIA GeForce RTX 5080"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/0",
+        "IsHidden": false,
+        "NickName": "Commander PRO (0805009C93271220) Fan #1"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/1",
+        "IsHidden": false,
+        "NickName": "Commander PRO (0805009C93271220) Fan #2"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/2",
+        "IsHidden": false,
+        "NickName": "Commander PRO (0805009C93271220) Fan #3"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/3",
+        "IsHidden": false,
+        "NickName": "Commander PRO (0805009C93271220) Fan #4"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/4",
+        "IsHidden": false,
+        "NickName": "Commander PRO (0805009C93271220) Fan #5"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/5",
+        "IsHidden": false,
+        "NickName": "Commander PRO (0805009C93271220) Fan #6"
+      }
+    ],
+    "TemperatureSensors": [
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/TemperatureSensor/0",
+        "IsHidden": false,
+        "NickName": "Coolant Temp"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/TemperatureSensor/1",
+        "IsHidden": false,
+        "NickName": "Exterior Temp"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/TemperatureSensor/2",
+        "IsHidden": false,
+        "NickName": "Interior Temp"
+      }
+    ]
+  },
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": true
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": false,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "Memory": true,
+      "Motherboard": true,
+      "PowerMonitor": false,
+      "PSU": false,
+      "Storage": false,
+      "StorageUpdateInterval": "00:01:00",
+      "ZeroRPMOverride": true
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": true
+    }
+  },
+  "MainWindow": {
+    "Fahrenheit": false,
+    "HideCalibration": false,
+    "HideFanSpeedCards": true,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF607D8B",
+    "SecondaryColor": "#FFAEEA00",
+    "SelectedTheme": "",
+    "ShowHiddenCards": false,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TrayIconColor": null,
+    "TrayIcons": [
+      {
+        "SensorId": {
+          "Identifier": "Mix/Coolant Delta"
+        },
+        "Color": "#FFFFFFFF"
+      }
+    ]
+  }
+}
