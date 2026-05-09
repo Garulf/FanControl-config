@@ -861,8 +861,8 @@
         "MinimumTemperature": 0,
         "MaximumCommand": 100,
         "HysteresisConfig": {
-          "ResponseTimeUp": 1,
-          "ResponseTimeDown": 1,
+          "ResponseTimeUp": 5,
+          "ResponseTimeDown": 15,
           "HysteresisValueUp": 2,
           "HysteresisValueDown": 2,
           "IgnoreHysteresisAtLimits": true
