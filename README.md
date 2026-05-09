@@ -1,4 +1,6 @@
-This is a repository for my personal fanControl graphs and sensors.
+# FanControl Config
+
+This is a repository for my personal fanControl configuration files.
 
 ```mermaid
 graph TD
