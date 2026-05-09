@@ -3,7 +3,7 @@
 This is a repository for my personal fanControl configuration files.
 
 ```mermaid
-graph TD
+graph LR
     %% Sensors
     subgraph Sensors [Hardware Sensors]
         S1[Coolant Temp]
@@ -67,10 +67,4 @@ graph TD
     
     S1 --> C4
     C4 --> F1
-
-    %% Styling
-    style S1 fill:#f9f,stroke:#333
-    style S2 fill:#f9f,stroke:#333
-    style C3 fill:#bbf,stroke:#333
-    style F1 fill:#bfb,stroke:#333
 ```
