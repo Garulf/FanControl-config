@@ -188,44 +188,48 @@
         "ForceApply": false,
         "Calibration": [
           [
+            0,
+            797
+          ],
+          [
             10,
-            798
+            799
           ],
           [
             20,
-            818
+            821
           ],
           [
             30,
-            1389
+            1367
           ],
           [
             40,
-            1951
+            1904
           ],
           [
             50,
-            2511
+            2436
           ],
           [
             60,
-            3066
+            2974
           ],
           [
             70,
-            3617
+            3493
           ],
           [
             80,
-            4158
+            4034
           ],
           [
             90,
-            4710
+            4532
           ],
           [
             100,
-            4838
+            4799
           ]
         ]
       },
@@ -241,8 +245,8 @@
         "PairedFanSensor": {
           "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/1"
         },
-        "SelectedStart": 0,
-        "SelectedStop": 0,
+        "SelectedStart": 9,
+        "SelectedStop": 6,
         "MinimumPercent": 0,
         "SelectedCommandStepUp": 8,
         "SelectedCommandStepDown": 8,
@@ -255,48 +259,40 @@
             0
           ],
           [
-            1,
-            591
-          ],
-          [
-            10,
-            623
-          ],
-          [
             20,
-            624
+            620
           ],
           [
             30,
-            626
+            621
           ],
           [
             40,
-            835
+            820
           ],
           [
             50,
-            1024
+            998
           ],
           [
             60,
-            1186
+            1170
           ],
           [
             70,
-            1340
+            1317
           ],
           [
             80,
-            1481
+            1448
           ],
           [
             90,
-            1619
+            1590
           ],
           [
             100,
-            1734
+            1744
           ]
         ]
       },
@@ -312,8 +308,8 @@
         "PairedFanSensor": {
           "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/2"
         },
-        "SelectedStart": 0,
-        "SelectedStop": 0,
+        "SelectedStart": 9,
+        "SelectedStop": 6,
         "MinimumPercent": 0,
         "SelectedCommandStepUp": 8,
         "SelectedCommandStepDown": 8,
@@ -379,8 +375,8 @@
         "PairedFanSensor": {
           "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/3"
         },
-        "SelectedStart": 0,
-        "SelectedStop": 0,
+        "SelectedStart": 9,
+        "SelectedStop": 6,
         "MinimumPercent": 0,
         "SelectedCommandStepUp": 8,
         "SelectedCommandStepDown": 8,
@@ -446,8 +442,8 @@
         "PairedFanSensor": {
           "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/4"
         },
-        "SelectedStart": 0,
-        "SelectedStop": 0,
+        "SelectedStart": 9,
+        "SelectedStop": 6,
         "MinimumPercent": 0,
         "SelectedCommandStepUp": 8,
         "SelectedCommandStepDown": 8,
@@ -513,8 +509,8 @@
         "PairedFanSensor": {
           "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#a&28bbd351&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/5"
         },
-        "SelectedStart": 0,
-        "SelectedStop": 0,
+        "SelectedStart": 9,
+        "SelectedStop": 6,
         "MinimumPercent": 0,
         "SelectedCommandStepUp": 8,
         "SelectedCommandStepDown": 8,
